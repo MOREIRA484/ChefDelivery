@@ -20,7 +20,7 @@ struct StoreDetailView: View {
          ScrollView(showsIndicators: false){
              VStack(alignment: .leading){
                  
-                 StoreDetailHeaderView(store: store)
+                 
                  
                  StoreDetailProductsView(product: store.products)
                  

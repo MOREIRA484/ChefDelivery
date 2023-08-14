@@ -25,9 +25,9 @@
 		8E4679EA2A792D0700F211A1 /* productType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4679E92A792D0700F211A1 /* productType.swift */; };
 		8E4679ED2A79A51700F211A1 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4679EC2A79A51700F211A1 /* Double+.swift */; };
 		8E4679F02A7A865E00F211A1 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4679EF2A7A865E00F211A1 /* ProductDetailView.swift */; };
-		8E4679F32A7C367900F211A1 /* StoreDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4679F22A7C367900F211A1 /* StoreDetailHeaderView.swift */; };
 		8E4679F52A7C378500F211A1 /* StoreDetailProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4679F42A7C378500F211A1 /* StoreDetailProductsView.swift */; };
 		8E4679F72A7C393400F211A1 /* StoreDetailProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4679F62A7C393400F211A1 /* StoreDetailProductItemView.swift */; };
+		8E9A06972A815B5A00841F28 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A06962A815B5A00841F28 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,9 +50,9 @@
 		8E4679E92A792D0700F211A1 /* productType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productType.swift; sourceTree = "<group>"; };
 		8E4679EC2A79A51700F211A1 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		8E4679EF2A7A865E00F211A1 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
-		8E4679F22A7C367900F211A1 /* StoreDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailHeaderView.swift; sourceTree = "<group>"; };
 		8E4679F42A7C378500F211A1 /* StoreDetailProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailProductsView.swift; sourceTree = "<group>"; };
 		8E4679F62A7C393400F211A1 /* StoreDetailProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailProductItemView.swift; sourceTree = "<group>"; };
+		8E9A06962A815B5A00841F28 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +85,7 @@
 		8E4679BE2A77E06D00F211A1 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				8E9A06952A815B4500841F28 /* HomeView */,
 				8E4679CE2A77F93A00F211A1 /* App */,
 				8E4679D42A78017000F211A1 /* Model */,
 				8E4679CD2A77F91F00F211A1 /* NavigationBar */,
@@ -183,11 +184,18 @@
 			isa = PBXGroup;
 			children = (
 				8E4679E52A7928EF00F211A1 /* StoreDetailView.swift */,
-				8E4679F22A7C367900F211A1 /* StoreDetailHeaderView.swift */,
 				8E4679F42A7C378500F211A1 /* StoreDetailProductsView.swift */,
 				8E4679F62A7C393400F211A1 /* StoreDetailProductItemView.swift */,
 			);
 			path = StoreDetailView;
+			sourceTree = "<group>";
+		};
+		8E9A06952A815B4500841F28 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A06962A815B5A00841F28 /* HomeView.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +286,7 @@
 				8E4679F52A7C378500F211A1 /* StoreDetailProductsView.swift in Sources */,
 				8E4679E42A7850BF00F211A1 /* StoreContainerView.swift in Sources */,
 				8E4679F72A7C393400F211A1 /* StoreDetailProductItemView.swift in Sources */,
-				8E4679F32A7C367900F211A1 /* StoreDetailHeaderView.swift in Sources */,
+				8E9A06972A815B5A00841F28 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +415,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChefDelivery/Preview Content\"";
-				DEVELOPMENT_TEAM = TJMSZ6N757;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
